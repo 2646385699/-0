@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理员登录</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- 登录模态框 -->
+    <div class="Blogin-modal">
+        <div class="Blogin-modal-content">
+            <h2>管理员登录</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-username">用户名</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">密码</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="button" id="login-btn">登录</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 管理面板 -->
+    <div id="admin-panel" style="display: none;">
+        <!-- 商品列表等管理内容 -->
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
